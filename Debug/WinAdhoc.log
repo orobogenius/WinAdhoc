@@ -1,0 +1,26 @@
+﻿Build started 11/16/2015 21:36:14.
+     1>Project "C:\Users\OROBOGENIUS\Documents\Visual Studio 2015\Projects\WinAdhoc\WinAdhoc\WinAdhoc.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yc"stdafx.h" /Fp"Debug\WinAdhoc.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Yu"stdafx.h" /Fp"Debug\WinAdhoc.pch" /Fo"Debug\\" /Fd"Debug\vc140.pdb" /Gd /TP /analyze- /errorReport:prompt AdhocNetwork.cpp ConnProfile.cpp INetSharing.cpp UIControl.cpp WinAdhoc.cpp WlanMgr.cpp main.cpp
+         main.cpp
+         WlanMgr.cpp
+     1>c:\users\orobogenius\documents\visual studio 2015\projects\winadhoc\winadhoc\wlanmgr.cpp(86): warning C4800: 'BOOL': forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\orobogenius\documents\visual studio 2015\projects\winadhoc\winadhoc\wlanmgr.cpp(573): warning C4102: 'error': unreferenced label
+         WinAdhoc.cpp
+         UIControl.cpp
+         INetSharing.cpp
+         ConnProfile.cpp
+         AdhocNetwork.cpp
+         Generating Code...
+     1>c:\users\orobogenius\documents\visual studio 2015\projects\winadhoc\winadhoc\inetsharing.cpp(57): error C4716: 'INetSharing::GetConConfig': must return a value
+     1>c:\users\orobogenius\documents\visual studio 2015\projects\winadhoc\winadhoc\inetsharing.cpp(80): error C4716: 'INetSharing::GetSSIDOfConn': must return a value
+     1>c:\users\orobogenius\documents\visual studio 2015\projects\winadhoc\winadhoc\inetsharing.cpp(84): error C4716: 'INetSharing::EnableICS': must return a value
+     1>c:\users\orobogenius\documents\visual studio 2015\projects\winadhoc\winadhoc\inetsharing.cpp(88): error C4716: 'INetSharing::DisableICS': must return a value
+     1>c:\users\orobogenius\documents\visual studio 2015\projects\winadhoc\winadhoc\inetsharing.cpp(61): error C4716: 'INetSharing::GetSharingEnabled': must return a value
+     1>Done Building Project "C:\Users\OROBOGENIUS\Documents\Visual Studio 2015\Projects\WinAdhoc\WinAdhoc\WinAdhoc.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:08.35
