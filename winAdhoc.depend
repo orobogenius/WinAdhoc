@@ -1,0 +1,19 @@
+# depslib dependency file v1.0
+1445370807 source:c:\users\orobogenius\documents\winadhoc\profile.cpp
+	"Profile.h"
+
+1445370757 c:\users\orobogenius\documents\winadhoc\profile.h
+	<iostream>
+
+1446899440 source:c:\users\orobogenius\documents\winadhoc\main.cpp
+	<windows.h>
+	"UI.h"
+
+1446899357 c:\users\orobogenius\documents\winadhoc\ui.h
+	<windows.h>
+	<commctrl.h>
+	<string>
+
+1446899428 source:c:\users\orobogenius\documents\winadhoc\ui.cpp
+	"UI.h"
+
